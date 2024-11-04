@@ -1,3 +1,13 @@
+---
+title: "Practice-5.1"
+author: "Wei-Ting Sun"
+date: "2024-11-04"
+output: html_document
+---
+I still don't know how to fix projection problem due to the absence last week. However, I need to finish my work right now...
+
+I will do my best to catch up...
+```{r, warning=FALSE, message=FALSE}
 library(rgbif)
 library(leaflet)
 library(dplyr)
@@ -17,3 +27,4 @@ marten3 <- leaflet (data = marten2) %>%
   addControl(html = "<strong> Distribution of Yellow-throated marten </strong>", position = "topright")
 
 marten3
+```
